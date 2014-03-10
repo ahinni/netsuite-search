@@ -1,0 +1,47 @@
+{
+  "name": "netsuite-search",
+  "version": "0.1.0",
+  "description": "Wrap making restlet call to execute a generic search in netsuite.",
+  "homepage": "http://github.com/ahinni/netsuite-search",
+  "contributors": [
+    "Aaron Hinni @aaronhinni"
+  ],
+  "keywords": [
+    "netsuite",
+    "restlet",
+    "search"
+  ],
+  "main": "./lib/netsuite-search",
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahinni/netsuite-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahinni/netsuite-search/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "underscore": "~1.5.2",
+    "underscore.string": "~2.3.3",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1",
+    "grunt-exec": "~0.4.3",
+    "findup-sync": "~0.1.2"
+  },
+  "dependencies": {
+    "restler": "~3.1.0",
+    "async": "~0.2.10",
+    "underscore": "~1.5.2"
+  }
+}
